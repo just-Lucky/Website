@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html translate="no">
 <head>
     <link rel="icon" type="image/png" href="assets/web.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="justLucky's personal Website, containing an introduction about him, his work, his skills and his experiences.">
     <meta property="og:image" content="https://i.imgur.com/nJ8Ggtw.png">
-    <title>justLucky's Website</title>
+    <meta name="google" content="notranslate">
+    <title id="page-ttl">justLucky's Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>justLucky's Website</h1>
+        <h1 id="header-ttl">justLucky's Website</h1>
+        <br>
+        <br>
+        <div class="language-switch">
+            <button id="lang-en">English</button>
+            <button id="lang-it">Italian</button>
+        </div>
+        <br>
         <div class="theme-switch">
             <input type="checkbox" id="dark-mode-toggle">
             <label for="dark-mode-toggle">Toggle Dark Mode</label>
@@ -20,35 +28,34 @@
 
     <main class="container">
         <section id="home" class="section">
-            <h2>Welcome</h2>
-            <p>Welcome to my Website! I'm known online as 'justLucky'. Explore my site to learn more about me and my work.</p>
+            <h2 id="fst-sec-ttl">Welcome</h2>
+            <p id="fst-sec-txt">Welcome to my Website! I'm known online as 'justLucky'. Explore my site to learn more about me and my work.</p>
         </section>
 
         <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>Hi! My nickname is justLucky. I'm an Italian guy with more than 2 years of experience in Python programming and I want to learn C and Java in the future. One day, I hope to become a successful Ethical Hacker. For paid commissions that require programming in Python 3.10 or higher, feel free to contact me on Telegram or Discord, I'm open to most requests.</p>
+            <h2 id="snd-sec-ttl">About Me</h2>
+            <p id="snd-sec-txt">Hi! My nickname is justLucky. I'm an Italian guy with more than 2 years of experience in Python programming and I want to learn C and Java in the future, also, one day I hope to become a successful Ethical Hacker. For paid commissions that require programming in Python 3.10 or higher, feel free to contact me on Telegram or Discord, I'm open to most requests.</p>
         </section>
 
         <section id="contact" class="section">
-            <h2>Contact Me</h2>
-            <p>If you want to get in touch with me, here are my contact details:</p>
-            <p id="contact-info">Email: <a href="mailto:business1412riccardob@gmail.com">business1412riccardob@gmail.com</a></p>
-            <p id="contact-info" class="contact-info">Discord: @just_lucky_y</p>
-            <p class="contact-info">Telegram: @justluckyy_y</p>
+            <h2 id="trd-sec-ttl">Contact Me</h2>
+            <p id="trd-sec-txt">If you want to get in touch with me, here are my contact details:</p>
+            <p class="contact-info" id="trd-sec-sndtxt">Email: <a href="mailto:business1412riccardob@gmail.com">business1412riccardob@gmail.com</a> (I rarely check it)</p>
+            <p class="contact-info" id="contact-info">Discord: @just_lucky_y</p>
+            <p id="contact-info">Telegram: @justluckyy_y</p>
         </section>
 
         <section id="toommo23" class="section">
             <h2>Toommo23</h2>
-            <p>Check out my friend's website too!</p>
-            <p>If you want to visit my friend's website, click <a href="https://toommo23site.altervista.org/" target="_blank">here</a>.</p>
+            <p id="fth-sec-txt">Check out my friend's website too!</p>
+            <p id="fth-sec-sndtxt">If you want to visit my friend's website, click <a href="https://toommo23site.altervista.org/" target="_blank">here</a>.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 justLucky. All Rights Reserved.</p>
+        <p id="footer-txt">&copy; 2024 justLucky. All Rights Reserved.</p>
     </footer>
     
     <script src="index.js"></script>
 </body>
-
 </html>
