@@ -1,3 +1,10 @@
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
+        event.preventDefault();
+    }
+});
+document.addEventListener('contextmenu', event => event.preventDefault());
+
 const toggleSwitch = document.getElementById('dark-mode-toggle');
 const footer = document.querySelector('footer');
 const currentTheme = localStorage.getItem('theme');
