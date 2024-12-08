@@ -83,7 +83,7 @@ function changeto(newlang){
         document.getElementById("snd-sec-txt").textContent = "Ciao! Il mio nickname è 'justLucky'. Sono un ragazzo Italiano che studia attivamente la programmazione in Python dall'Agosto 2022 e in futuro intendo imparare C e Java, inoltre, un giorno spero di diventare un Ethical Hacker di successo. Per commissioni su pagamento che richiedono la Programmazione in Python 3.10 o superiore, sentitevi liberi di contattarmi su Telegram o su Discord, sono aperto alla maggior parte delle richieste.";
         document.getElementById("trd-sec-ttl").textContent = "Come contattarmi:";
         document.getElementById("trd-sec-txt").textContent = "Se desiderate contattarmi, ecco come:";
-        document.getElementById("trd-sec-sndtxt").innerHTML = 'Email: <a href="mailto:business1412riccardob@gmail.com">business1412riccardob@gmail.com</a> (La controllo raramente)';
+        document.getElementById("trd-sec-sndtxt").innerHTML = 'Email: <a href="mailto:business1412riccardob@gmail.com">business1412riccardob@gmail.com</a>';
         document.getElementById("fth-sec-txt").textContent = "Visita anche il Sito del mio Amico!";
         document.getElementById("fth-sec-sndtxt").innerHTML = 'Se vuoi visitare anche il Sito del mio Amico, clicca <a href="https://toommo23site.altervista.org/" target="_blank">qui</a>.';
         document.getElementById("footer-txt").innerHTML = "&copy; 2024 justLucky. Tutti i Diritti Riservati."
@@ -99,7 +99,7 @@ function changeto(newlang){
         document.getElementById("snd-sec-txt").textContent = "Hi! My nickname is justLucky. I'm an Italian guy that has been actively learning and programming in Python since August 2022 and I want to learn C and Java in the future, also, one day I hope to become a successful Ethical Hacker. For paid commissions that require programming in Python 3.10 or higher, feel free to contact me on Telegram or Discord, I'm open to most requests.";
         document.getElementById("trd-sec-ttl").textContent = "Contact Me";
         document.getElementById("trd-sec-txt").textContent = "If you want to get in touch with me, here are my contact details:";
-        document.getElementById("trd-sec-sndtxt").innerHTML = 'Email: <a href="mailto:business1412riccardob@gmail.com">business1412riccardob@gmail.com</a> (I rarely check it)';
+        document.getElementById("trd-sec-sndtxt").innerHTML = 'Email: <a href="mailto:business1412riccardob@gmail.com">business1412riccardob@gmail.com</a>';
         document.getElementById("fth-sec-txt").textContent = "Check out my friend's website too!";
         document.getElementById("fth-sec-sndtxt").innerHTML = `If you want to visit my friend's website, click <a href="https://toommo23site.altervista.org/" target="_blank">here</a>.`;
         document.getElementById("footer-txt").innerHTML = "&copy; 2024 justLucky. All Rights Reserved."
