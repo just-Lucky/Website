@@ -51,13 +51,10 @@ toggleSwitch.addEventListener('change', function() {
         updateTheme('light-mode');
     }
 });
-
-
 document.getElementById('lang-en').addEventListener('click', function() {
     setActiveLanguage('lang-en');
     changeto('en');
 });
-
 document.getElementById('lang-it').addEventListener('click', function() {
     setActiveLanguage('lang-it');
     changeto('it');
@@ -84,9 +81,7 @@ function changeto(newlang){
         document.getElementById("trd-sec-ttl").textContent = "Come contattarmi:";
         document.getElementById("trd-sec-txt").textContent = "Se desiderate contattarmi, ecco come:";
         document.getElementById("trd-sec-sndtxt").innerHTML = 'Email: <a href="mailto:business1412riccardob@gmail.com">business1412riccardob@gmail.com</a>';
-        document.getElementById("fth-sec-txt").textContent = "Visita anche il Sito del mio Amico!";
-        document.getElementById("fth-sec-sndtxt").innerHTML = 'Se vuoi visitare anche il Sito del mio Amico, clicca <a href="https://toommo23site.altervista.org/" target="_blank">qui</a>.';
-        document.getElementById("footer-txt").innerHTML = "&copy; 2024 justLucky. Tutti i Diritti Riservati."
+        document.getElementById("footer-txt").innerHTML = "Sito di justLucky"
     }
     else if(newlang === 'en'){
         document.getElementById("page-ttl").textContent = "justLucky's Website";
@@ -100,8 +95,6 @@ function changeto(newlang){
         document.getElementById("trd-sec-ttl").textContent = "Contact Me";
         document.getElementById("trd-sec-txt").textContent = "If you want to get in touch with me, here are my contact details:";
         document.getElementById("trd-sec-sndtxt").innerHTML = 'Email: <a href="mailto:business1412riccardob@gmail.com">business1412riccardob@gmail.com</a>';
-        document.getElementById("fth-sec-txt").textContent = "Check out my friend's website too!";
-        document.getElementById("fth-sec-sndtxt").innerHTML = `If you want to visit my friend's website, click <a href="https://toommo23site.altervista.org/" target="_blank">here</a>.`;
-        document.getElementById("footer-txt").innerHTML = "&copy; 2024 justLucky. All Rights Reserved."
+        document.getElementById("footer-txt").innerHTML = "justLucky's Website"
     }
 }
